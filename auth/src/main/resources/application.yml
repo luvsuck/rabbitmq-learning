@@ -5,3 +5,6 @@ spring:
     username: luvsic
     password: 123456
     virtual-host: test
+    listener:
+      simple:
+        acknowledge-mode: manual
